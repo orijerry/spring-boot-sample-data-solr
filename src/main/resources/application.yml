@@ -14,6 +14,6 @@ spring.jpa:
 
 # SOLR (SolrProperties)
 spring.data.solr:
-  host: http://127.0.0.1:8983/solr # Solr host. Ignored if "zk-host" is set.
+  host: http://localhost:8983/solr/springboot_data_solr_shop # Solr host. Ignored if "zk-host" is set.
   repositories.enabled: true # Enable Solr repositories.
   zk-host: # ZooKeeper host address in the form HOST:PORT.

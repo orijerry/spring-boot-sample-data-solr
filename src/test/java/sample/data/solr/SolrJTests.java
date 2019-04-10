@@ -22,7 +22,7 @@ import java.util.Map;
  */
 public class SolrJTests {
 
-    private String serverUrl = "http://127.0.0.1:8983/solr/product";
+    private String serverUrl = "http://127.0.0.1:8983/solr/springboot_data_solr_shop";
 
     /**
      * 增加与修改
